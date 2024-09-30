@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>Classes in JS</h3>
+<p id="my"></p>
+<p id="my1"></p>
+<script>
+    class teachers{
+        constructor(name,age){
+            this.name=name
+            this.age=age
+        }
+    }
+    teacher1=new teachers("Alice",34)
+    document.getElementById("my").innerHTML=teacher1.name;
+    teacher2=new teachers("John",22)
+    document.getElementById("my1").innerHTML=teacher2.name;
+</script>
+</body>
+</html>
